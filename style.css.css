@@ -1,0 +1,55 @@
+/*This style sheet and its structure in the accompanying HTML was modified from Andy's webpage at the Udacity site.  I folded in my own content and text. */
+h1 {
+  text-align: center;
+  color: #d97e00;
+}
+
+body {
+  font-family: Arial;
+}
+
+.lesson {
+  background-color: #294860;
+  border-radius: 20px;
+  color: #d97e00;
+  padding: 5px;
+}
+
+h2 {
+  margin: 10px;
+}
+
+.concept {
+  background-color: #DFEAF1;
+  padding: 4px;
+  margin: 10px;
+  border-radius: 20px;
+  color: black;
+}
+
+.concept-title {
+  font-size: 20px;
+  margin: 10px;
+  text-align: center;
+  color: #294860;
+}
+
+.concept-description {
+  font-weight: lighter;
+  margin: 10px;
+  padding: 5px
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+h3  {
+  text-align: left;
+  color: #d97e00;
+  font-size: 20px;  
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Brent Tantillo's IPND Notes</title>
+      <link rel="stylesheet" href="brent-style.css" type="text/css">
+   </head>
+   <body>
+      <div class="TOC">
+         <h3>Table of Contents</h3>
+         <ol>
+            <li>
+               <a href="#lesson-1">Lesson 1: The Basics of the Web and HTML</a>
+               <ul>
+                  <li><a href="#lesson-1-1">The Basics of the Web</a></li>
+                  <li><a href="#lesson-1-2">What is HTML</a></li>
+                  <li><a href="#lesson-1-3">Why Computers are Stupid</a></li>
+               </ul>
+            </li>
+            <li class="TOC-lesson"><a href="#lesson-2">Lesson 2: Creating a Structured Document with HTML</a></li>
+            <li class="TOC-lesson"><a href="#lesson-3">Lesson 3: Avoiding Repetition & Cascading Style Sheets (CSS)</a></li>
+         </ol>
+      </div>
+      <h1>Critical Concepts</h1>
+      <div class="lesson">
+         <h2 id="lesson-1">Lesson 1: The Basics of the Web and HTML</h2>
+         <div class="concept" id="lesson-1-1">
+            <div class="concept-title"><span class="bold">The Basics of the Web:</span></div>
+            <div class="concept-description">
+               <ul>
+                  <li><span class="bold">World Wide Web</span> or "Web" is a collection of HTML documents.</li>
+                  <li><span class="bold">HTML</span> is Hyper Text Markup Language, which is the basis for almost every webpage. Hyperlinks or "links" glue these pages together.</li>
+                  <li><span class="bold">Web Browsers</span> such as Internet Explorer, Safari, Firefox, etc. makes requests via the Internet to servers.</li>
+                  <li><span class="bold">HTTP</span> is the protocol used by web browsers and servers to communicate with the Web.</li>
+                  <li><span class="bold">Servers</span> are computers that host files that interact with internet browsers over the Web.</li>
+               </ul>
+            </div>
+         </div>
+         <div class="concept" id="lesson-1-2">
+            <div class="concept-title"><span class="bold">What is HTML?</span></div>
+            <div class="concept-description">
+               <ul>
+                  <li><span class="bold">Text content</span> <span class="italic">(what you see)</span></li>
+                  <li><span class="bold">Markup</span> <span class="italic">(what that content looks like or how it is arranged)</span></li>
+                  <li><span class="bold">References to other documents</span> <span class="italic">(i.e. images and videos)</span></li>
+                  <li><span class="bold">Links to other pages</span> <span class="italic">(i.e. <a href="www.udacity.com">www.udacity.com</a>) </span></li>
+                  <li><span class="italic"><span class="bold">Elements in HTML</span> are made up of opening tags, contents, and closing tags.</span></li>
+                  <li><span class="bold">Common stylistic tags</span> used in HTML are the bold tags and "em" tags. The bold tags does just what it says, it makes text bold. The "em" tag adds emphasis or italicizes words.</li>
+                  <li><span class="bold">HTML attributes</span> are a tag that equals some sort of value. One type of HTML attribute is the anchor tag, which is used to create links.</li>
+                  <li><span class="bold">All text in HTML is rendered as one line</span>, so special tags must be used such as the paragraph tag or the "br" tag to break up text.</li>
+                  <li><span class="bold">There are two different types of elements in HTML</span> -- inline and block. Inline merely formats text. Block actually creates a box with formatting, width, etc.</li>
+               </ul>
+            </div>
+         </div>
+         <div class="concept" id="lesson-1-3">
+            <div class="concept-title"><span class="bold">Why Computers are Stupid</span></div>
+            <div class="concept-description">
+               <p>Computers interpret instructions and code literally. Therefore, any mistake can cause huge mistake for a developer, as as computers are unforgiving. Developers should also be careful about repeating themselves to prevent errors.</p>
+            </div>
+         </div>
+         <div class="lesson">
+            <h2 id="lesson-2">Lesson 2: Creating a Structured Document with HTML</h2>
+            <div class="concept concept-description">
+               <ul>
+                  <li><span class="bold">Developing a Page</span> -- All HTML documents are a series of boxes and as important as the coding of the page is its layout and planning of text, images, and item placement.</li>
+                  <li><span class="bold">HTML is Organized in a Tree-like Structure</span> whereby the elements can have other elements subsumed inside of them (and often do). It is useful to outline these elements like a family tree with the various children or splinters of one element coming off another element to understand and determine the relationship from the first element. In a Internet Browser, this will show up as series of nested boxes within boxes.</li>
+                  <li><span class="bold">Google Chrome's Developer Tools</span> is a very effective tool enabling software developers to view this tree-like structure and nested relationships and understand how the browser interacts with the code and styling.</li>
+                  <li><span class="bold">Text Editors</span> such as Sublime Text or CoffeeCub HTML makes programmers lives easier by automatically creating HTML tags for coders and fixing errors.</li>
+               </ul>
+            </div>
+            <div class="lesson">
+               <h2 id="lesson-3">Lesson 3: Cascading Style Sheets & Avoiding Repetition</h2>
+               <div class="concept concept-description">
+                  <ul>
+                     <li><span class="bold">Avoiding Repetition</span> is important because when developers avoid repetition they avoid errors.  By avoiding repetition through the use of copying and pasting certain style attributes into many HTML elements or rewriting the same code, many times this causes errors. The better approach for style elements that repeat themselves is the use of Cascading Style Sheets discussed below.
+					 <li><span class="bold">CSS</span> or Cascading Style Sheets is a language used to describe the look and format of a document created using a markup language, such as HTML.</li>
+                     <li><span class="bold">Inheritance</span> is a key concept in CSS. Like ancestors pass on traits to their relatives, Cascading Style Sheet elements pass on traits to elements further down the document tree. This generally applies to text related properties. Properties related to boxes generally cannot be inherited. Check out this awesome <a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Inheritance" target="_self">article</a> on CSS Inheritance at Wikipedia.</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
